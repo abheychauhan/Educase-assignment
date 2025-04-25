@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function LandingScreen() {
     return (
-        <div className="h-screen bg-gray-200 p-6">
-            <div className=" mx-auto max-w-sm text-center h-full  p-6  flex flex-col justify-end  border-gray-300 border-2">
+        <div className="h-screen  p-6">
+            <div className=" mx-auto bg-gray-200 max-w-sm text-center h-full  p-6  flex flex-col justify-end  border-gray-300 border-2">
                 <div className="text-left">
                     <h1 className="text-2xl font-bold text-gray-900 mb-2">
                         Welcome to PopX

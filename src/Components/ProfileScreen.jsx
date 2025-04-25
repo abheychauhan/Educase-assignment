@@ -2,9 +2,9 @@ import React from "react";
 
 const ProfileScreen = () => {
   return (
-    <div className="h-screen bg-gray-200 p-6" >
+    <div className="h-screen  p-6" >
 
-      <div className="mx-auto h-full flex flex-col gap-4 w-full max-w-sm  border-gray-300 border-2">
+      <div className="mx-auto bg-gray-200 h-full flex flex-col gap-4 w-full max-w-sm  border-gray-300 border-2">
 
         <div className=" bg-white p-6">
           <h2 className="text-sm font-medium text-gray-700">Account Settings</h2>

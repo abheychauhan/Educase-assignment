@@ -7,7 +7,7 @@ import SignupScreen from './Components/SignupScreen'
 
 function App() {
   return (
-    <div>
+    <div >
       <Routes>
         <Route path="/" element={<LandingScreen />} />
         <Route path="/login" element={<LoginScreen />} />

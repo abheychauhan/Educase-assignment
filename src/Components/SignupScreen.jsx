@@ -5,13 +5,14 @@ function SignupScreen() {
 
   const [selected, setselected] = useState('')
   return (
-    <div className=' h-screen flex flex-col bg-gray-200 p-6'>
-      <div className='mx-auto p-6 h-full flex flex-col gap-4 w-full max-w-sm border-gray-300 border-2'>
+    <div className=' h-screen flex flex-col  p-6'>
+      <div className='mx-auto bg-gray-200 p-6 h-full flex flex-col gap-4 w-full max-w-sm border-gray-300 border-2'>
 
         <div className='text-left mb-5'>
           <h1 className='text-2xl font-semibold'>Create your <br /> PopX account</h1>
         </div>
-        <div>
+
+        <div className='flex flex-col justify-between h-full'>
 
           {/* form */}
           <form action="">
@@ -23,7 +24,7 @@ function SignupScreen() {
               <input
                 type="text"
                 placeholder="Enter full name"
-                className="w-full border border-gray-300 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="w-full border border-gray-400 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
             </div>
 
@@ -36,7 +37,7 @@ function SignupScreen() {
               <input
                 type="number"
                 placeholder="Enter phone number"
-                className="w-full border border-gray-300 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="w-full border border-gray-400 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
             </div>
 
@@ -49,7 +50,7 @@ function SignupScreen() {
               <input
                 type="email"
                 placeholder="Enter email address"
-                className="w-full border border-gray-300 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="w-full border border-gray-400 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
             </div>
 
@@ -62,7 +63,7 @@ function SignupScreen() {
               <input
                 type="password"
                 placeholder="Enter password"
-                className="w-full border border-gray-300 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="w-full border border-gray-400 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
             </div>
 
@@ -73,7 +74,7 @@ function SignupScreen() {
               <input
                 type="text"
                 placeholder="Enter company name"
-                className="w-full border border-gray-300 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                className="w-full border border-gray-400 rounded-md py-2 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
             </div>
 
@@ -102,11 +103,11 @@ function SignupScreen() {
               </div>
             </div>
           </form>
-        </div>
         {/* button */}
         <Link to='/profile' className="block w-full bg-[#6C25FF] text-center text-white font-semibold py-3 rounded-md">
           Create Account
         </Link>
+        </div>
       </div>
     </div>
   )
